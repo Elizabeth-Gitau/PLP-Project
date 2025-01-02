@@ -1,5 +1,5 @@
 # PLP-Project
 
 ## Objective:
-Showcasing my personal TechCarewebsite that highlights my skills, background, and projects. 
+Showcasing my personal TechCare website that highlights my skills, background, and projects. 
 
