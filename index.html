@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCare for Mothers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <span id="nameError"></span>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span id="emailError"></span>
+      
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <span id="passwordError"></span>
+      
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <span id="confirmPasswordError"></span>
+      
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <span id="ageError"></span>
+      
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required> Male
+        <input type="radio" id="female" name="gender" value="Female" required> Female
+        <span id="genderError"></span>
+      
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="">Select a country</option>
+          <option value="kenya">Kenya</option>
+          <option value="southafrica">SouthAfrica</option>
+          <option value="nigeria">Nigeria</option>
+          <option value="tz">Tanzania</option>
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+        </select>
+        <span id="countryError"></span>
+      
+        <label for="terms">
+          <input type="checkbox" id="terms" name="terms" required> I agree to the Terms and Conditions
+        </label>
+        <span id="termsError"></span>
+      
+        <button type="submit">Register</button>
+      </form>
+      <br>
+
+      <form id="loginForm">
+        <label for="loginEmail">Email:</label>
+        <input type="email" id="loginEmail" name="loginEmail" required>
+        <span id="loginEmailError"></span>
+      
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" name="loginPassword" required>
+        <span id="loginPasswordError"></span>
+      
+        <button type="submit">Login</button>
+      </form>
+      
+      
+    <!-- Header -->
+    <header>
+        <img src="image/Maternal.jpeg" alt="Pregnant Mum">
+        <div class="logo">TechCare for Mothers</div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <input type="text" placeholder="Search...">
+            <ul>
+                <li><a href="#telemedicine">Telemedicine</a></li>
+                <li><a href="#consult">Remote Consultation</a></li>
+                <li><a href="#nutrition">Nutrition Support</a></li>
+                <li><a href="#emergency">Emergency Transport</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <section id="about">
+                <h1>Welcome to TechCare for Mothers</h1>
+                <p>Our platform provides remote maternal and child healthcare solutions, ensuring that mothers and children in remote areas get the care they need without necessarily visiting the hospital. We leverage telemedicine, nutrition support, and emergency transport systems to make healthcare accessible.</p>
+            </section>
+
+            <section id="services">
+                <h2>Services We Offer</h2>
+                <article>
+                    <h3>Telemedicine</h3>
+                    <p>Through telemedicine, healthcare professionals are just a call away. Expecting mothers can get advice, consultations, and prescriptions online.</p>
+                </article>
+                <article>
+                    <h3>Remote Consultations</h3>
+                    <p>We offer virtual consultations with skilled healthcare professionals, giving you access to expertise in prenatal care, child health, and more.</p>
+                </article>
+                <article>
+                    <h3>Nutrition Support</h3>
+                    <p>Proper nutrition is critical for maternal and child health. We provide nutritional guidance and supplements delivered to your door.</p>
+                </article>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 TechCare for Mothers</p>
+            <div class="social-media">
+                <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
